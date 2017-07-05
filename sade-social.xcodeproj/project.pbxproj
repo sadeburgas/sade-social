@@ -23,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		11AD995066B8FE3F23EA85A0 /* Pods_sade_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sade_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4F7CFC1F0D792B00EE184A /* sade-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "sade-social.entitlements"; sourceTree = "<group>"; };
 		1C7385731F0D06A100D5926C /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		1C7385761F0D079E00D5926C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1C7385781F0D0A5300D5926C /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 		1CC97E6B1F0CAE7200E72C9C /* sade-social */ = {
 			isa = PBXGroup;
 			children = (
+				1C4F7CFC1F0D792B00EE184A /* sade-social.entitlements */,
 				1C7385751F0D077000D5926C /* Util */,
 				1CBA590B1F0CB10000C32D57 /* Model */,
 				1CBA590C1F0CB10A00C32D57 /* View */,
@@ -175,6 +177,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2EKTHK2S2T;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -395,6 +402,7 @@
 			baseConfigurationReference = 23E7F8231BAB73263ACECC03 /* Pods-sade-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "sade-social/sade-social.entitlements";
 				DEVELOPMENT_TEAM = 2EKTHK2S2T;
 				INFOPLIST_FILE = "sade-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -409,6 +417,7 @@
 			baseConfigurationReference = 5D6E39C8D60433C1D35649BC /* Pods-sade-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "sade-social/sade-social.entitlements";
 				DEVELOPMENT_TEAM = 2EKTHK2S2T;
 				INFOPLIST_FILE = "sade-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
