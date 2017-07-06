@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C4F7CFE1F0E4EB600EE184A /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F7CFD1F0E4EB600EE184A /* FeedVC.swift */; };
+		1C6E2AA51F0EBBDD00744F9D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E2AA41F0EBBDD00744F9D /* CircleView.swift */; };
 		1C7385741F0D06A100D5926C /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7385731F0D06A100D5926C /* FancyView.swift */; };
 		1C7385771F0D079E00D5926C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7385761F0D079E00D5926C /* Constants.swift */; };
 		1C7385791F0D0A5300D5926C /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7385781F0D0A5300D5926C /* RoundBtn.swift */; };
@@ -26,6 +27,7 @@
 		11AD995066B8FE3F23EA85A0 /* Pods_sade_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sade_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4F7CFC1F0D792B00EE184A /* sade-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "sade-social.entitlements"; sourceTree = "<group>"; };
 		1C4F7CFD1F0E4EB600EE184A /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		1C6E2AA41F0EBBDD00744F9D /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		1C7385731F0D06A100D5926C /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		1C7385761F0D079E00D5926C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1C7385781F0D0A5300D5926C /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				1C7385781F0D0A5300D5926C /* RoundBtn.swift */,
 				1C73857A1F0D0F4D00D5926C /* FancyField.swift */,
 				1C73857C1F0D11D300D5926C /* FancyBtn.swift */,
+				1C6E2AA41F0EBBDD00744F9D /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6E2AA51F0EBBDD00744F9D /* CircleView.swift in Sources */,
 				1C73857B1F0D0F4D00D5926C /* FancyField.swift in Sources */,
 				1C4F7CFE1F0E4EB600EE184A /* FeedVC.swift in Sources */,
 				1CC97E6F1F0CAE7200E72C9C /* SignInVC.swift in Sources */,
