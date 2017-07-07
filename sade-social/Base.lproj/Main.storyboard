@@ -165,6 +165,7 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="Nsj-Qo-cgm" firstAttribute="top" secondItem="Jhe-pH-vSP" secondAttribute="top" constant="29" id="04v-FW-8gg"/>
                                     <constraint firstItem="Nsj-Qo-cgm" firstAttribute="centerX" secondItem="Jhe-pH-vSP" secondAttribute="centerX" id="B5g-wI-7Qy"/>
@@ -174,6 +175,9 @@
                                     <constraint firstAttribute="height" constant="65" id="zgV-JF-Be1"/>
                                     <constraint firstItem="bUj-Yz-7IT" firstAttribute="leading" secondItem="Jhe-pH-vSP" secondAttribute="leading" constant="16" id="ztG-El-3eP"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gR4-ac-MDe" appends="YES" id="Fpc-Fb-aHV"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdK-tE-bGK" customClass="FancyView" customModule="sade_social" customModuleProvider="target">
                                 <rect key="frame" x="16" y="81" width="343" height="73"/>
@@ -345,6 +349,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iph-6Y-YHe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gR4-ac-MDe">
+                    <connections>
+                        <action selector="signOutTapped:" destination="exz-sO-E9J" id="NHS-7j-3S3"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="880.79999999999995" y="37.331334332833585"/>
         </scene>
