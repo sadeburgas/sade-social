@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		11AD995066B8FE3F23EA85A0 /* Pods_sade_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sade_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C452BFD1F124F4D00043EF1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		1C4F7CFC1F0D792B00EE184A /* sade-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "sade-social.entitlements"; sourceTree = "<group>"; };
 		1C4F7CFD1F0E4EB600EE184A /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		1C6E2AA41F0EBBDD00744F9D /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
@@ -149,6 +150,7 @@
 		4B17C15CBFE0A747E0884852 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C452BFD1F124F4D00043EF1 /* AdSupport.framework */,
 				11AD995066B8FE3F23EA85A0 /* Pods_sade_social.framework */,
 			);
 			name = Frameworks;
