@@ -326,7 +326,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="caption" destination="jM6-sh-pTC" id="8Ov-cn-LVC"/>
-                                            <outlet property="likesImg" destination="bex-yf-djQ" id="y7s-Jv-oDh"/>
+                                            <outlet property="likeImg" destination="bex-yf-djQ" id="6Av-Hl-3Vp"/>
                                             <outlet property="likesLbl" destination="gv9-kk-LPr" id="eU3-bk-TKf"/>
                                             <outlet property="postImg" destination="CjM-bS-Rat" id="mzT-w2-bMT"/>
                                             <outlet property="profileImg" destination="K1P-hG-bRl" id="F2U-SP-eH0"/>
